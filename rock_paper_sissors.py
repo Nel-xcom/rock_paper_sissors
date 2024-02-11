@@ -38,7 +38,6 @@ while True:
         break
     #-- user/list checker
     if game_input not in options:
-        print("Please choose rock, paper, sissors or 'q' to quit")
         continue
     #-- Computer options
     random_option = random.randrange(0,2)
@@ -61,6 +60,6 @@ while True:
         print("I win 1 score! Let's see the next time...")
 
 
-
 print("You won ", user_score, " times")
 print("I won ", computer_score, " times")
+print("Thanks for played!")
